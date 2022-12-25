@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "backend which stores all the transactions",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "ankit kumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
